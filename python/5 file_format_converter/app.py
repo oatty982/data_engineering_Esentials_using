@@ -63,3 +63,14 @@ if __name__ == '__main__':
     else:
         process_files()
 
+
+# src_base_dir = '/Users/macintosh/Desktop/data_engineering_Esentials_using/data/retail_db'
+# tgt_base_dir = '/Users/macintosh/Desktop/data_engineering_Esentials_using/data/retail_db_json'
+
+# export HOST= "appdbdev"
+# export SRC_BASE_DIR="/Users/macintosh/Desktop/data_engineering_Esentials_using/data/retail_db"
+# export TGT_BASE_DIR="/Users/macintosh/Desktop/data_engineering_Esentials_using/data/retail_db_json"
+# export TGT_BASE_DIR="/Users/macintosh/Desktop/data_engineering_Esentials_using/file_format_converter/retail_db_json"
+# python app.py '["orders", "order_items"]'
+# python app.py '["orders", "order_items", "categories"]'
+# python app.py '[\"orders\", \"order_items\"]'
